@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head> 
+        <meta charset="utf-8">
+        <title>EXE03</title>
+    </head>
+    <body>
+        <header><h1></h1></header>
+        <h1></h1>
+        <pre>
+            
+        </pre>
+
+        <h1></h1>
+        <p>
+            <br>
+            
+        </p>
+
+        <section>
+            <h1></h1>
+            <p>
+                <br>
+                
+            </p>
+        </section>
+        <hr>
+        <footer><p><small></small></p></footer>
+    </body>   
+</html>    
+    
