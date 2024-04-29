@@ -5,21 +5,6 @@
     <meta charset="utf-8">
     <title>EXE12</title>
 <style>
-    p#text-title01{
-        word-wrap: break-word;
-    }
-    #text-content01{
-        width: 400px;
-        border: 1px rgb(94, 153, 221); 
-        text-indent: 32px;
-        text-align: justify;
-    }
-    #text-content02{
-        width: 400px;
-        border: 1px rgb(94, 153, 221); 
-        text-indent: 32px;
-        text-align: justify;
-    }
     h1{
         text-shadow: 0px 0px 5px rgb(94, 153, 221);
         text-decoration: underline;
@@ -27,8 +12,35 @@
         text-decoration-color: rgb(191, 140, 238);
         text-transform: uppercase;
     }
+    #t1{
+        text-overflow: clip;
+    }
+    #t2{
+        text-overflow: ellipsis;
+    }
     .center{
         text-align: center;
+    }
+    .p{
+        border: solid 3px rgb(94, 153, 221); 
+        text-indent: 32px;
+        text-align: justify;
+    }
+    .p1{
+        width: 400px;
+        border: 1px rgb(94, 153, 221); 
+        white-space: nowrap;
+    }
+    .p2{
+        width: 400px;
+        border: 1px rgb(94, 153, 221); 
+        word-break: break-all;
+    }
+    .p3{
+        width: 400px;
+        border: 1px rgb(94, 153, 221); 
+        line-height:1.5cm;
+        text-align: justify;
     }
 </style>
 </head>
@@ -56,8 +68,10 @@
 
     <hr>
     <p class="footer"id="f1">
+        (https//www.chatgpt.com)
     </p>
     <p class="footer"id="f2">
+        (https//www.chatgpt.com)
     </p>
 </body>
 
