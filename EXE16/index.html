@@ -3,15 +3,40 @@
     <head> 
         <meta charset="utf-8">
         <title>EXE16</title>
+        <style>
+            caption{
+                caption-side: bottom;
+                margin-top: 10px;
+                color: rgb(73, 143, 235);
+            }
+
+            table{
+                width: 450px;
+                text-align: center;
+                border: solid 5px rgb(233, 163, 227)
+                font-weight 700;
+                border-collapse: collapse;
+                background-color: antiquewhite;               
+            }
+            tbody{
+                color: #a679e2;
+            }
+            th,td{
+                width: 150px;
+                border: solid 2px rgb(95, 143, 103);
+            }
+            tr:nth-child(2){
+                background-color: beige;
+            }
+            td:nth-child(2){
+                color: rgb(88, 120, 150);
+            }
+            
+        </style>
     </head>
     <body>
         <table>
             <caption>表格01</caption>
-            <colgroup>
-                <col span="2" style="background-color: rgb(183, 217, 238);">
-                <col style="background-color: rgb(253, 200, 226);">
-                <col style="background-color: rgb(174, 202, 255);">
-            </colgroup>
             <thead>
                 <tr><th>Outlet</th><th>Address</th><th>Business Hour</th></tr>
             </thead>
